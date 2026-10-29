@@ -1,0 +1,21 @@
+# UI Framework
+streamlit>=1.29.0
+
+# Local LLM Interface (Ollama)
+ollama>=0.1.6
+
+# Cloud LLM Fallback (Google Gemini)
+google-generativeai>=0.3.2
+
+# Data Validation & Protocol
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Code Analysis & Syntax Validation (For the Self-Healing mechanism)
+astor>=0.8.1  # Useful for code manipulation and AST parsing if needed beyond standard lib
+
+# Asynchronous Support (Optional but recommended for Agent hand-offs)
+aiohttp>=3.9.1
